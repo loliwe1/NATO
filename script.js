@@ -16,8 +16,5 @@ input.onchange = function(){
             result = result+ natoWord[i]+ ' ';
         }
     }
-    // let arr = result.split(" ");
-    // arr.pop();
-    // result = arr.join(" ");
     NATO.innerHTML = result;
 }
